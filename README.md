@@ -37,12 +37,6 @@ src/
 │   │   ├── Footer.js
 ├── context/
 │   ├── AppContext.js
-├── hooks/
-│   ├── useAdmin.js
-│   ├── useUser.js
-├── services/
-│   ├── api.js
-│   ├── dataService.js
 ├── styles.css
 └── App.js
 
