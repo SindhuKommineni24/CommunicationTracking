@@ -1,0 +1,53 @@
+/* src/components/User/CalendarView.css */
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.calendar-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.add-event-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-event-btn:hover {
+  background-color: #45a049;
+}
+
+.events {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.events h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.events ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.events li {
+  background-color: #eef1f3;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}

@@ -1,0 +1,8 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /* Add more styles specific to Modal */
+  

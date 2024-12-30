@@ -1,0 +1,83 @@
+/* General Centering */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Borders and Colors */
+  .card {
+    border: 2px solid #007BFF; /* Blue border */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f8f9fa; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h1, .card h2 {
+    color: #343a40; /* Dark gray */
+  }
+  
+  .highlight-red {
+    color: #dc3545; /* Red for overdue */
+  }
+  
+  .highlight-yellow {
+    color: #ffc107; /* Yellow for due */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF; /* Blue links */
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, select, textarea, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
